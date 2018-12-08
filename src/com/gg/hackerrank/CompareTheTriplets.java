@@ -40,9 +40,6 @@ public class CompareTheTriplets {
         List<Integer> a = Arrays.asList(5, 6, 7);
         List<Integer> b = Arrays.asList(3, 6, 10);
 
-
-
-
         List<Integer> result = compareTriplets(a, b);
         System.out.println("Result "+result);
 
