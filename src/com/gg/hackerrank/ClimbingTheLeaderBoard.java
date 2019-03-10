@@ -67,9 +67,9 @@ public class ClimbingTheLeaderBoard {
         //climbingLeaderboard(Arrays.stream(scores).mapToInt(Integer::intValue).toArray(),Arrays.stream(aliceScores).mapToInt(Integer::intValue).toArray());
 
 
-        Integer[] scores=System.arraycopy(Arrays.asList(scoresP.getProperty("scores").split(",")),0,new Integer[scoreCount],0,scoreCount);
+        /*Integer[] scores=System.arraycopy(Arrays.asList(scoresP.getProperty("scores").split(",")),0,new Integer[scoreCount],0,scoreCount);
         Integer[] aliceScores =System.arraycopy(Arrays.asList(scoresP.getProperty("aliceScores").split(",")),0,new Integer[scoreCount],0,aliceScoreCount);
-        climbingLeaderboard(Arrays.stream(scores).mapToInt(Integer::intValue).toArray(),Arrays.stream(aliceScores).mapToInt(Integer::intValue).toArray());
+        climbingLeaderboard(Arrays.stream(scores).mapToInt(Integer::intValue).toArray(),Arrays.stream(aliceScores).mapToInt(Integer::intValue).toArray());*/
 
     }
 
