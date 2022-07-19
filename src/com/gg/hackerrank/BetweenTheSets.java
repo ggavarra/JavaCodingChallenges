@@ -48,6 +48,8 @@ public class BetweenTheSets
     }
 
 
+
+
     private static Boolean isAFactorOfAll(int x,List<Integer> a){
         System.out.println("isAFactorOfAll "+x+" ="+a.stream().allMatch(n-> n%x==0));
 
